@@ -500,7 +500,7 @@ def starturl(): # in questa funzione setto l'url per renderlo usabile per il fut
 		try:
 			urlport = url.replace("http://", "").replace("https://", "").split("/")[0].split(":")[1]
 		except:
-			urlport = "80"
+			urlport = "443"
 
 	proxymode()
 
@@ -593,13 +593,10 @@ def multiplication():
 
 def begin():
 	choice6 = input("Press 'Enter' to start attack: ")
-	if choice6 == "":
-		loop()
+
 	elif choice6 == "Enter": #lool
 		loop()
-	elif choice6 == "enter": #loool
-		loop()
-	else:
+
 		exit(0)
 
 def loop():
