@@ -11,18 +11,7 @@ import sys
 print('''
 
 
-  hh   hh  iii  bbbbbbb  eeeeeee  rrrrrrrr  nn     nnn  eeeeeee  ttttttttt
-  hh   hh  iii  bb   bb  eeeeeee  rr    rr  nnn    nnn  eeeeeee     ttt
-  hh   hh  iii  bb   bb  ee       rr    rr  nnnn   nnn  ee          ttt
-  hh   hh  iii  bbbbbbb  ee       rrrrrrrr  nnnnnnnnnn  ee          ttt
-  hhhhhhh  iii  bb       eeeeeee  rrrr      nnnnnnnnnn  eeeeeee     ttt
-  hh   hh  iii  bbbbbbb  ee       rr rr     nnnnnnnnnn  ee          ttt
-  hh   hh  iii  bb   bb  ee       rr  rr    nn  nnnnnn  ee          ttt
-  hh   hh  iii  bb   bb  eeeeeee  rr   rr   nnn  nnnnn  eeeeeee     ttt
-  hh   hh  iii  bbbbbbb  eeeeeee  rr    rr  nnnn  nnnn  eeeeeee     ttt
-
-
-							C0d3d by All3xJ
+  PAID USER
 	''') # la grafica ci sta
 
 
@@ -500,7 +489,7 @@ def starturl(): # in questa funzione setto l'url per renderlo usabile per il fut
 		try:
 			urlport = url.replace("http://", "").replace("https://", "").split("/")[0].split(":")[1]
 		except:
-			urlport = "443"
+			urlport = "80"
 
 	proxymode()
 
@@ -593,8 +582,13 @@ def multiplication():
 
 def begin():
 	choice6 = input("Press 'Enter' to start attack: ")
-
-	choice6 = input("Press 'Enter' to start attack: ") if choice6 == "": loop() elif choice6 == "Enter": #lool loop() elif choice6 == "enter": #loool loop() else:
+	if choice6 == "":
+		loop()
+	elif choice6 == "Enter": #lool
+		loop()
+	elif choice6 == "enter": #loool
+		loop()
+	else:
 		exit(0)
 
 def loop():
