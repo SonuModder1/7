@@ -594,7 +594,7 @@ def multiplication():
 def begin():
 	choice6 = input("Press 'Enter' to start attack: ")
 
-	choice6 = input("Press 'Enter' to start attack: ") if choice6 == "": loop() elif choice6 == "Enter": lool loop() elif choice6 == "enter": loool loop() else:
+	choice6 = input("Press 'Enter' to start attack: ") if choice6 == "": loop() elif choice6 == "Enter": #lool loop() elif choice6 == "enter": #loool loop() else:
 		exit(0)
 
 def loop():
